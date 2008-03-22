@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>:cursor${1:default/auto/crosshair/pointer/move/*-resize/text/wait/help}$0</string>
+	<key>name</key>
+	<string>:cursor type</string>
+	<key>scope</key>
+	<string>source.sass</string>
+	<key>tabTrigger</key>
+	<string>cursor</string>
+	<key>uuid</key>
+	<string>F2C1C27C-FA10-4471-BE64-138CB2E7DAE5</string>
+</dict>
+</plist>

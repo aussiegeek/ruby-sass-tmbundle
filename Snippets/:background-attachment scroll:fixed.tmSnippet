@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>:background-attachment ${1:scroll/fixed}$0</string>
+	<key>name</key>
+	<string>:background-attachment scroll/fixed</string>
+	<key>scope</key>
+	<string>source.sass</string>
+	<key>tabTrigger</key>
+	<string>background</string>
+	<key>uuid</key>
+	<string>D3D994F9-7300-4B50-9F99-749F2FAC5DA7</string>
+</dict>
+</plist>
