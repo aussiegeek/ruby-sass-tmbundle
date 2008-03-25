@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>font-weight: ${1:normal/bold}$0</string>
+	<string>:font-weight ${1:normal/bold}$0</string>
 	<key>name</key>
 	<string>:font-weight weight</string>
 	<key>scope</key>
