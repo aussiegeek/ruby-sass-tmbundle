@@ -224,7 +224,6 @@
 	<string>Ruby Sass</string>
 	<key>ordering</key>
 	<array>
-		<string>D8243660-E048-4464-B952-0FE0419CA1A6</string>
 		<string>F73505F1-0CD8-4ED1-93AA-B88050B3D8D4</string>
 		<string>E313C630-7EC3-46E7-9F63-E146B69E3945</string>
 		<string>B31D82A6-95A1-4DDF-B3AE-0ED74684A921</string>
@@ -317,6 +316,7 @@
 		<string>0EF36BD4-1B4F-4D06-9A76-E18AF2B8DB12</string>
 		<string>2214ACCE-0C64-4CE1-A7A2-660512797CB2</string>
 		<string>A0E6854B-0510-4DB5-ADBF-3995975FA69E</string>
+		<string>50D925C6-E4F3-46A1-BC82-5DD166B3458F</string>
 	</array>
 	<key>uuid</key>
 	<string>176253C8-5D97-4C20-AA34-3BE8BC73FBC9</string>
