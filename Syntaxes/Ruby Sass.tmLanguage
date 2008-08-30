@@ -12,6 +12,8 @@
 	<string>^\s*([-%#\:\.\w\=].*)\s$</string>
 	<key>foldingStopMarker</key>
 	<string>^\s*$</string>
+	<key>keyEquivalent</key>
+	<string>^~S</string>
 	<key>name</key>
 	<string>Ruby Sass</string>
 	<key>patterns</key>
