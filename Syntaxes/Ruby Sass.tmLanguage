@@ -73,7 +73,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.selector.sass</string>
+			<string>meta.selector.css</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -346,7 +346,7 @@
 					<key>match</key>
 					<string>\b(align|azimuth|background-attachment|background-color|background-image|background-position|background-repeat|background|border-bottom-color|border-bottom-style|border-bottom-width|border-bottom|border-collapse|border-color|border-left-color|border-left-style|border-left-width|border-left|border-right-color|border-right-style|border-right-width|border-right|border-spacing|border-style|border-top-color|border-top-style|border-top-width|border-top|border-width|border|bottom|caption-side|clear|clip|color|content|counter-increment|counter-reset|cue-after|cue-before|cue|cursor|decoration|direction|display|elevation|empty-cells|family|float|font-family|font-size-adjust|font-size|font-stretch|font-style|font-variant|font-weight|font|height|image|indent|left|letter-spacing|line-height|list-style-image|list-style-position|list-style-type|list-style|margin-bottom|margin-left|margin-right|margin-top|marker-offset|margin|marks|max-height|max-width|min-height|min-width|-moz-border-radius|opacity|orphans|outline-color|outline-style|outline-width|outline|overflow(-[xy])?|padding-bottom|padding-left|padding-right|padding-top|padding|page-break-after|page-break-before|page-break-inside|page|pause-after|pause-before|pause|pitch-range|pitch|play-during|position|quotes|repeat|richness|right|shadow|size|speak-header|speak-numeral|speak-punctuation|speech-rate|speak|stress|style|table-layout|text|text-align|text-decoration|text-indent|text-shadow|text-transform|top|transform|unicode-bidi|vertical-align|visibility|voice-family|volume|weight|white-space|widows|width|word-spacing|z-index)\b</string>
 					<key>name</key>
-					<string>support.type.property-name.sass</string>
+					<string>support.type.property-name.css</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -429,13 +429,13 @@
 					<key>match</key>
 					<string>\b(absolute|all-scroll|always|auto|baseline|below|bidi-override|block|bold|bolder|both|bottom|break-all|break-word|capitalize|center|char|circle|col-resize|collapse|crosshair|dashed|decimal|default|disabled|disc|distribute-all-lines|distribute-letter|distribute-space|distribute|dotted|double|e-resize|ellipsis|fixed|groove|hand|help|hidden|horizontal|ideograph-alpha|ideograph-numeric|ideograph-parenthesis|ideograph-space|inactive|inherit|inline-block|inline|inset|inside|inter-ideograph|inter-word|italic|justify|keep-all|left|lighter|line-edge|line-through|line|list-item|loose|lower-alpha|lower-roman|lowercase|lr-tb|ltr|medium|middle|move|n-resize|ne-resize|newspaper|no-drop|no-repeat|nw-resize|none|normal|not-allowed|nowrap|oblique|outset|outside|overline|pointer|progress|relative|repeat-x|repeat-y|repeat|right|ridge|row-resize|rtl|s-resize|scroll|se-resize|separate|small-caps|solid|square|static|strict|super|sw-resize|table-footer-group|table-header-group|tb-rl|text-bottom|text-top|text|thick|thin|top|transparent|underline|upper-alpha|upper-roman|uppercase|vertical-ideographic|vertical-text|visible|w-resize|wait|whitespace)\b</string>
 					<key>name</key>
-					<string>support.constant.property-value.sass</string>
+					<string>support.constant.property-value.css</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\b(?i:arial|century|comic|courier|garamond|georgia|helvetica|impact|lucida|symbol|system|tahoma|times|trebuchet|utopia|verdana|webdings|sans-serif|serif|monospace)\b)</string>
 					<key>name</key>
-					<string>support.constant.font-name.sass</string>
+					<string>support.constant.font-name.css</string>
 				</dict>
 				<dict>
 					<key>comment</key>
@@ -443,7 +443,7 @@
 					<key>match</key>
 					<string>\b(aqua|black|blue|fuchsia|gray|green|lime|maroon|navy|olive|purple|red|silver|teal|white|yellow)\b</string>
 					<key>name</key>
-					<string>support.constant.color.w3c-standard-color-name.sass</string>
+					<string>support.constant.color.w3c-standard-color-name.css</string>
 				</dict>
 				<dict>
 					<key>comment</key>
@@ -451,19 +451,19 @@
 					<key>match</key>
 					<string>\b(seagreen|hotpink|lawngreen|darkgreen|violet|darkred|crimson|green|sandybrown|navy|magenta|darkslategray|steelblue|silver|darkgrey|mistyrose|gray|aliceblue|blueviolet|lightpink|saddlebrown|chocolate|limegreen|lightslategray|yellowgreen|pink|lightskyblue|indigo|lightblue|floralwhite|navajowhite|mediumvioletred|honeydew|aquamarine|blue|olivedrab|palegreen|slategray|lavenderblush|wheat|moccasin|mediumturquoise|mediumspringgreen|lightcoral|mintcream|tomato|lightgrey|black|darkmagenta|dimgray|darkturquoise|midnightblue|plum|indianred|coral|lightcyan|mediumslateblue|darkcyan|darkslateblue|darkkhaki|ivory|azure|khaki|powderblue|darkgoldenrod|orangered|burlywood|turquoise|royalblue|maroon|cornsilk|antiquewhite|yellow|teal|orange|grey|darkslategrey|slateblue|seashell|darkorchid|snow|lightslategrey|cyan|greenyellow|palevioletred|goldenrod|deepskyblue|lightyellow|lightseagreen|sienna|lemonchiffon|darkviolet|paleturquoise|slategrey|skyblue|purple|mediumpurple|cadetblue|fuchsia|chartreuse|darksalmon|lightgoldenrodyellow|white|springgreen|olive|forestgreen|peachpuff|peru|dimgrey|mediumseagreen|thistle|firebrick|darkgray|mediumaquamarine|darkolivegreen|mediumblue|palegoldenrod|blanchedalmond|ghostwhite|gold|gainsboro|darkseagreen|cornflowerblue|lime|lavender|beige|orchid|mediumorchid|whitesmoke|bisque|lightgray|tan|salmon|rosybrown|red|dodgerblue|brown|aqua|oldlace|deeppink|papayawhip|lightsalmon|lightsteelblue|darkorange|darkblue|linen|lightgreen)\b</string>
 					<key>name</key>
-					<string>invalid.deprecated.color.w3c-non-standard-color-name.sass</string>
+					<string>invalid.deprecated.color.w3c-non-standard-color-name.css</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(-|\+)?\s*[0-9]+(\.[0-9]+)?</string>
 					<key>name</key>
-					<string>constant.numeric.sass</string>
+					<string>constant.numeric.css</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(?&lt;=[\d])(px|pt|cm|mm|in|em|ex|pc)\b|%</string>
 					<key>name</key>
-					<string>keyword.other.unit.sass</string>
+					<string>keyword.other.unit.css</string>
 				</dict>
 				<dict>
 					<key>captures</key>
@@ -471,13 +471,13 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.constant.sass</string>
+							<string>punctuation.definition.constant.css</string>
 						</dict>
 					</dict>
 					<key>match</key>
 					<string>(#)([0-9a-fA-F]{3}|[0-9a-fA-F]{6})\b</string>
 					<key>name</key>
-					<string>constant.other.color.rgb-value.sass</string>
+					<string>constant.other.color.rgb-value.css</string>
 				</dict>
 				<dict>
 					<key>include</key>
