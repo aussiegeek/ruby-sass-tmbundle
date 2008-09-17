@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+require File.join(ENV['TM_BUNDLE_SUPPORT'], "lib/sass_engine")
+SassEngine.new(ENV['TM_FILEPATH']).execute!</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>Compile SASS</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.sass</string>
+	<key>uuid</key>
+	<string>E5F3F81F-4CAA-4D22-93A9-3AB23141F9FD</string>
+</dict>
+</plist>
