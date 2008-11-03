@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Symbol List: Selector</string>
 	<key>scope</key>
-	<string>meta.selector.sass</string>
+	<string>meta.selector.css</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
