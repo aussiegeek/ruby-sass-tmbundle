@@ -101,6 +101,25 @@
 			</array>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.entity.css</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.other.sass</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*(\+)([a-zA-Z0-9_-]+)</string>
+			<key>name</key>
+			<string>meta.variable-usage.sass</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>(?=[.*&amp;#a-zA-Z][:.*&amp;#a-zA-Z]*)</string>
 			<key>end</key>
