@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Symbol List: Variable declaration</string>
+	<key>scope</key>
+	<string>source.sass meta.variable-declaration.sass variable.other.sass</string>
+	<key>settings</key>
+	<dict>
+		<key>showInSymbolList</key>
+		<integer>1</integer>
+		<key>symbolTransformation</key>
+		<string>s/^(.*)$/!$1=/</string>
+	</dict>
+	<key>uuid</key>
+	<string>854E2359-EC1A-48F4-B584-D4F61EBCEA52</string>
+</dict>
+</plist>
