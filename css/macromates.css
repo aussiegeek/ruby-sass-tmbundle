@@ -1,0 +1,380 @@
+html {
+	background: #1e1e1e;
+}
+body {
+	background: transparent url("http://macromates.com/images/site/bg_body") repeat-y 50% 0px;
+/* font: 0.72em/170% "Lucida Grande", Verdana, Helvetica, sans-serif;*/
+	font: 12px "Lucida Grande", Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+a[href] {
+	color: #525151;
+}
+
+#wrapper { /* IE workaround */
+	margin: 0 auto;
+	padding: 0;
+	width: 750px;
+}
+html>body #wrapper {
+	margin: 0 auto;
+	padding: 0;
+	width: auto;
+	max-width: 750px;
+}
+
+#header {
+	position: relative;
+/*  background: #4B055A url("http://macromates.com/images/site/bg_header") no-repeat 0px 0px;*/
+	background: #6F1A77;
+	border-bottom: 1px solid #861b90;
+	height: 113px;
+}
+#header h1 {
+	position: absolute;
+	left: 60px;
+	top: 40px;
+	width: 380px;
+	height: 50px;
+	cursor: pointer;
+	color: white;
+}
+
+#navigation {
+	background: #232323 url("http://macromates.com/images/site/bg_navigation") repeat-x 0px 0px;
+	border-top: 5px solid #6D0E79;
+	border-bottom: 1px solid #171717;
+	margin: 0;
+	padding: 0.5em 0;
+	width: 100%;
+}
+#navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#navigation li {
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 25px;
+	text-shadow: 0px 2px 4px #000;
+}
+#navigation li a {
+	color: #5b5b5b;
+	text-decoration: none;
+}
+
+#intro		#navi_intro			a,
+#blog			#navi_blog			a,
+#toc			#navi_manual		a,
+#chapter		#navi_manual		a,
+#wiki			#navi_wiki			a,
+#community	#navi_community	a,
+#contact		#navi_contact		a,
+#navigation li a:hover {
+	color: #fff;
+}
+
+#page_body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+#content { /* IE workaround */
+	margin: 0;
+	padding: 25px;
+	width: 430px;
+	height: 584px; /* (64+2*20+2)*6 - 2 - 2*25 */
+	background: #fff;
+}
+html>body #content {
+	margin: 0;
+	padding: 25px;
+	width: auto;
+	height: auto;
+	max-width: 430px;
+	min-height: 584px; /* (64+2*20+2)*6 - 2 - 2*25 */
+	background: #fff;
+}
+#content :first-child {
+	margin-top: 0px;
+}
+#content :first-child + h1 {
+	margin-top: 0px;
+}
+
+#sidebar {
+	margin: 0;
+	padding: 0;
+	top: 0px;
+	left: 480px;
+	width: 270px;
+	background-color: #e8eaea;
+	position: absolute;
+}
+#sidebar .item {
+	color: #5b5b5b;
+	border-bottom: 2px solid #fff;
+	padding: 20px;
+	min-height: 64px;
+}
+#sidebar .item * {
+	margin: 0px;
+}
+#sidebar .item h4 {
+	margin-bottom: 1em;
+	font-size: 120%;
+}
+#sidebar .item p {
+	font-size: 90%;
+}
+#sidebar .item a {
+	text-decoration: none;
+}		  
+#sidebar .item a:hover {
+	text-decoration: underline;
+}
+
+#sidebar .item #download,
+#sidebar .item #purchase,
+#sidebar .item #manual,
+#sidebar .item #screencasts,
+#sidebar .item #book,
+#sidebar .item #rss_feed,
+#sidebar .item #tickets {
+	display: block;
+	overflow: hidden;
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+	text-indent: -9999px;
+}
+
+#sidebar .item #download		{ background-image: url("http://macromates.com/images/site/download"); }
+#sidebar .item #purchase		{ background-image: url("http://macromates.com/images/site/purchase"); }
+#sidebar .item #manual			{ background-image: url("http://macromates.com/images/site/pdf"); }
+#sidebar .item #screencasts	{ background-image: url("http://macromates.com/images/site/quicktime"); }
+#sidebar .item #book				{ background-image: url("http://macromates.com/images/site/book"); }
+#sidebar .item #rss_feed		{ background-image: url("http://macromates.com/images/site/rss"); }
+#sidebar .item #tickets 		{ background-image: url("http://macromates.com/images/site/ratings"); }
+
+
+#footer {
+	position: relative;
+	margin: 0;
+	padding: 0.75em 25px 0.75em 25px;
+	min-height: 1em;
+	clear: both;
+	color: #b5b5b5;
+	background: #2E2E2E;
+}
+#footer * {
+	margin: 0;
+	padding: 0;
+}
+#footer a {
+	color: #b5b5b5;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #2E2E2E;
+	background: #b5b5b5;
+	text-decoration: none;
+}
+#footer .left {
+	float: left;
+}
+#footer .right {
+	float: right;
+}
+
+/* ========== */
+/* = Teaser = */
+/* ========== */
+
+#teaser #content:first-child {
+	margin-top: -25px;
+}
+
+#teaser #content { /* IE workaround */
+	width: 700px;
+}
+html>body#teaser #content {
+	width: auto;
+	max-width: 700px;
+}
+#teaser #sidebar {
+	display: none;
+}
+
+#teaser_bar {
+	background: #2E2E2E url("http://macromates.com/images/site/bg_teaser.gif") no-repeat 100% 0px;
+	color: #b5b5b5;
+	margin: -25px -25px 25px -25px;
+	padding: 10px 0 0 0;
+/*	float: left;*/
+/*	width: 100%;*/
+/*	overflow: hidden;*/
+}
+#teaser_bar .teaseritem {
+	float: left;
+	width: 29%;
+	padding: 40px 0px 20px 25px;
+	text-shadow: 2px 2px 2px #000;
+/*	background-color: #DDD;*/
+}
+#teaser_bar h2 {
+	color: #6b6b6b;
+	font-size: 280%;
+	font-weight: normal;
+	margin: 20px 0 -5px 25px;
+	text-shadow: 2px 2px 2px #000;
+}
+#teaser_bar h3 {
+	color: #fff;
+	font-size: 140%;
+	font-weight: normal;
+}
+#teaser_bar .teaseritem a {
+	color: #b5b5b5;
+	text-decoration: none;
+}
+#teaser_bar .teaseritem a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* ======================== */
+/* = Page Specific Styles = */
+/* ======================== */
+
+#intro #content > p:first-child {
+	font-weight: bold;
+	color: #7b7b7b;
+}
+
+#intro #content img#project_window {
+  float: right;
+  margin-left: 10px;
+}
+#intro #content img#theme_editor {
+  float: left;
+  margin-right: 10px;
+}
+
+#intro #content ul a {
+	text-decoration: none;
+}
+#intro #content ul a:hover {
+	text-decoration: underline;
+}
+
+.caution {
+	margin: 25px;
+	border: 1px solid #cccbba;
+	padding: 10px;
+	background: #f0f0f0 url("http://macromates.com/images/site/caution') no-repeat 21px center;
+}
+.caution ul {
+	margin: 0;
+	padding: 0 0 0 64px;
+	list-style-type: none;
+	font-size: 85%;
+}
+.caution li {
+	margin: 0;
+}
+.caution li + li {
+	margin-top: 1em;
+}
+.caution li p {
+	margin: 0;
+}
+
+.textbox {
+	padding: 1em 40px;
+}
+
+.graybox {
+	border-top: 1px solid #919699;
+	border-left: 1px solid #919699;
+}
+.graybox th {
+	background: #E2E2E2;
+	border-bottom: 1px solid #919699;
+	border-right: 1px solid #919699;
+/*	font-size: 12px;*/
+	font-weight: bold;
+	padding: 4px 8px 4px 8px;
+	text-align: left;
+}
+.graybox td {
+	border-bottom: 1px solid #919699;
+	border-right: 1px solid #919699;
+/*	font-size: 12px;*/
+	padding: 8px;
+	vertical-align: top;
+}
+.graybox p {
+	margin: 0;
+}
+.graybox p + p {
+	margin-top: 1em;
+}
+
+/* ========================== */
+/* = Styling of user quotes = */
+/* ========================== */
+
+#quotes blockquote {
+   font-style: italic;
+   margin: 20px 20px 0 20px;
+}
+#quotes blockquote p {
+   margin: 0 0 0 0;
+}
+#quotes .attribution:before {
+   content: "— ";
+}
+#quotes .attribution {
+   color: gray;
+   margin: 0.5em 0 0 40px;
+   font-size: 90%;
+}
+
+/* ========================= */
+/* = Should be in wiki.css = */
+/* ========================= */
+
+#wiki .page_group {
+	margin: 0;
+	font-size: 80%;
+	color: #999887;
+}
+#wiki .page_group a {
+	color: #999887;
+	text-decoration: none;
+}
+#wiki .page_group a:hover {
+	text-decoration: underline;
+}
+
+#wiki .page_title {
+	margin: 0 0 1em 0;
+}
+#wiki .page_title a {
+	color: #000;
+	text-decoration: none;
+}
+#wiki .page_title a:hover {
+	text-decoration: underline;
+}
+
+#wiki #sidebar ul {
+	margin-bottom: 0.5em;
+}
