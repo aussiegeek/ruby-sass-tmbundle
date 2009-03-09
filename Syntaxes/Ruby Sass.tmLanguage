@@ -133,7 +133,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.selector.sass</string>
+			<string>meta.selector.css</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -142,7 +142,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(a|abbr|acronym|address|area|b|base|big|blockquote|body|br|button|caption|cite|code|col|colgroup|dd|del|dfn|div|dl|dt|em|fieldset|form|frame|frameset|(h[1-6])|head|hr|html|i|iframe|img|input|ins|kbd|label|legend|li|link|map|meta|noframes|noscript|object|ol|optgroup|option|p|param|pre|q|samp|script|select|small|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|title|tr|tt|ul|var)\b</string>
+					<string>\b(a|abbr|acronym|address|area|b|base|big|blockquote|body|br|button|caption|cite|code|col|colgroup|dd|del|dfn|div|dl|dt|em|fieldset|form|frame|frameset|(h[1-6])|head|hr|html|i|iframe|img|input|ins|kbd|label|legend|li|link|map|meta|noframes|noscript|object|ol|optgroup|option|p|param|pre|q|samp|script|select|small|span|strike|strong|sub|sup|table|tbody|td|textarea|tfoot|th|thead|title|tr|tt|ul|var)\b</string>
 					<key>name</key>
 					<string>entity.name.tag.css.sass</string>
 				</dict>
@@ -517,13 +517,13 @@
 					<key>match</key>
 					<string>(-|\+)?\s*[0-9]+(\.[0-9]+)?</string>
 					<key>name</key>
-					<string>constant.numeric.sass</string>
+					<string>constant.numeric.css</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(?&lt;=[\d])(px|pt|cm|mm|in|em|ex|pc)\b|%</string>
 					<key>name</key>
-					<string>keyword.other.unit.sass</string>
+					<string>keyword.other.unit.css</string>
 				</dict>
 				<dict>
 					<key>captures</key>
@@ -531,13 +531,13 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.constant.sass</string>
+							<string>punctuation.definition.constant.css</string>
 						</dict>
 					</dict>
 					<key>match</key>
 					<string>(#)([0-9a-fA-F]{3}|[0-9a-fA-F]{6})\b</string>
 					<key>name</key>
-					<string>constant.other.color.rgb-value.sass</string>
+					<string>constant.other.color.rgb-value.css</string>
 				</dict>
 				<dict>
 					<key>include</key>

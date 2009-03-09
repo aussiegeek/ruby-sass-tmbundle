@@ -1,3 +1,7 @@
+The bundle will try to use the colors from the CSS scheme. We still have to define some other elements though, since there are elements in SASS that don't exist in CSS (the following list will probably grow when other elements are implemented):
+- constants: variable.other.sass
+
+
 This a bundle consisting of the Sass Language file by Bob Aman from http://sporkmonger.com/2007/12/24/sass-textmate-bundle, and a port of the Snippets from the CSS bundle port by myself, Alan Harper
 
 --Alan Harper 2008-03-25 10:23pm
