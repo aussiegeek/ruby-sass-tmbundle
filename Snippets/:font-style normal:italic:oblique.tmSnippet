@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:font-style ${1:normal/italic/oblique}$0</string>
+	<string>`put_colon.rb`font-style ${1:normal/italic/oblique}$0</string>
 	<key>name</key>
 	<string>:font-style normal/italic/oblique</string>
 	<key>scope</key>

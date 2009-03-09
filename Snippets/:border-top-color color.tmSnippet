@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:border-top-color #${1:999}$0</string>
+	<string>`put_colon.rb`border-top-color #${1:999}$0</string>
 	<key>name</key>
 	<string>:border-top-color color</string>
 	<key>scope</key>

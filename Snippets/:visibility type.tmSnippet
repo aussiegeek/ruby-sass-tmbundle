@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:visibility ${1:visible/hidden/collapse}$0</string>
+	<string>`put_colon.rb`visibility ${1:visible/hidden/collapse}$0</string>
 	<key>name</key>
 	<string>:visibility type</string>
 	<key>scope</key>

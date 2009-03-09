@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:vertical-align ${1:baseline/sub/super/top/text-top/middle/bottom/text-bottom/length/%}$0</string>
+	<string>`put_colon.rb`vertical-align ${1:baseline/sub/super/top/text-top/middle/bottom/text-bottom/length/%}$0</string>
 	<key>name</key>
 	<string>:vertical-align type</string>
 	<key>scope</key>

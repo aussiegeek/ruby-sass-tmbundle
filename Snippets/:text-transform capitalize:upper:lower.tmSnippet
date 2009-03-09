@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:text-transform ${1:capitalize/uppercase/lowercase}$0</string>
+	<string>`put_colon.rb`text-transform ${1:capitalize/uppercase/lowercase}$0</string>
 	<key>name</key>
 	<string>:text-transform capitalize/upper/lower</string>
 	<key>scope</key>

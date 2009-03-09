@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:text-indent ${1:10}px$0</string>
+	<string>`put_colon.rb`text-indent ${1:10}px$0</string>
 	<key>name</key>
 	<string>:text-indent length</string>
 	<key>scope</key>

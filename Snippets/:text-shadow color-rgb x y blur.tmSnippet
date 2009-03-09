@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:text-shadow rgb(${1:255},${2:255},${3:255}) ${4:10px} ${5:10px} ${6:2px}$0</string>
+	<string>`put_colon.rb`text-shadow rgb(${1:255},${2:255},${3:255}) ${4:10px} ${5:10px} ${6:2px}$0</string>
 	<key>name</key>
 	<string>:text-shadow color-rgb x y blur</string>
 	<key>scope</key>

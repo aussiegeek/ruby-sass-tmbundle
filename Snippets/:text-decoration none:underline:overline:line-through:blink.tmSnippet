@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:text-decoration ${1:none/underline/overline/line-through/blink}$0</string>
+	<string>`put_colon.rb`text-decoration ${1:none/underline/overline/line-through/blink}$0</string>
 	<key>name</key>
 	<string>:text-decoration none/underline/overline/line-through/blink</string>
 	<key>scope</key>

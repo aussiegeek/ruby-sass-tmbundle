@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:display ${1:none/inline/block/list-item/run-in/compact/marker}$0</string>
+	<string>`put_colon.rb`display ${1:none/inline/block/list-item/run-in/compact/marker}$0</string>
 	<key>name</key>
 	<string>:display common-types</string>
 	<key>scope</key>

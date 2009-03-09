@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:marker-offset auto$0</string>
+	<string>`put_colon.rb`marker-offset auto$0</string>
 	<key>name</key>
 	<string>:marker-offset auto</string>
 	<key>scope</key>

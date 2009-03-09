@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:background-repeat ${1:repeat/repeat-x/repeat-y/no-repeat}$0</string>
+	<string>`put_colon.rb`background-repeat ${1:repeat/repeat-x/repeat-y/no-repeat}$0</string>
 	<key>name</key>
 	<string>:background-repeat r/r-x/r-y/n-r</string>
 	<key>scope</key>
