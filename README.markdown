@@ -1,11 +1,10 @@
-# Ruby SASS.tmbundle
+This is a TextMate bundle for using the [Sass](http://haml.hamptoncatlin.com) CSS replacement language by Hampton Catlin
 
-This bundle was originally developed by Alan Harper ([@aussiegeek](http://github.com/aussiegeek)) and is currently being worked on by loads of individuals. There were 12 forks at my last count.
 
-[@mfilej](http://github.com/mfilej) has committed some changes pretty recently. He might be the best person to fork from.
+I originally wrote this bundle just as a way of getting the CSS snippets, but since then many of you have added some fantastic contributions, and thank you to all. Thanks to GitHub for making it easy to bring all your awesome together
 
-[@agibralter](http://github.com/agibralter)
 [@aussiegeek](http://github.com/aussiegeek)
+[@agibralter](http://github.com/agibralter)
 [@choan](http://github.com/choan)
 [@giannichiappetta](http://github.com/giannichiappetta)
 [@gruner](http://github.com/gruner)
@@ -17,8 +16,20 @@ This bundle was originally developed by Alan Harper ([@aussiegeek](http://github
 [@trevorsmith](http://github.com/trevorsmith)
 
 ## Installation
-
+    
+    With Git:
+    
+    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/jcf/ruby-sass-tmbundle.git
+    git clone git://github.com/aussiegeek/ruby-sass-tmbundle.git "Ruby Sass.tmbundle"
+    osascript -e 'tell app "TextMate" to reload bundles'
 
-## Fork me!
+    Without Git:
+    
+    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+    cd ~/Library/Application\ Support/TextMate/Bundles
+    wget http://github.com/aussiegeek/ruby-sass-tmbundle/tarball/master
+    tar zxf aussiegeek-ruby-sass-tmbundle*.tar.gz
+    rm aussiegeek-ruby-sass-tmbundle*.tar.gz
+    mv aussiegeek-ruby-sass-tmbundle* "Ruby on Rails.tmbundle"
+    osascript -e 'tell app "TextMate" to reload bundles'
