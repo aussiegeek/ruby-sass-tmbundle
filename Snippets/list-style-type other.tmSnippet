@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:list-style-type ${1:hebrew/armenian/georgian}$0</string>
+	<string>`put_colon.rb`list-style-type ${1:hebrew/armenian/georgian}$0</string>
 	<key>name</key>
 	<string>:list-style-type other</string>
 	<key>scope</key>

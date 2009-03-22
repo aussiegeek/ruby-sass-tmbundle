@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:background-position ${1:top left/top center/top right/center left/center center/center right/bottom left/bottom center/bottom right/x-% y-%/x-pos y-pos}$0</string>
+	<string>`put_colon.rb`background-position ${1:top left/top center/top right/center left/center center/center right/bottom left/bottom center/bottom right/x-% y-%/x-pos y-pos}$0</string>
 	<key>name</key>
 	<string>:background-position position</string>
 	<key>scope</key>

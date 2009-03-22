@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:cursor url($1)$0</string>
+	<string>`put_colon.rb`cursor url($1)$0</string>
 	<key>name</key>
 	<string>:cursor url</string>
 	<key>scope</key>

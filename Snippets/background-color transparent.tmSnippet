@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:background-color transparent$0</string>
+	<string>`put_colon.rb`background-color transparent$0</string>
 	<key>name</key>
 	<string>:background-color transparent</string>
 	<key>scope</key>

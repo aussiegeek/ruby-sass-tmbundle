@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:overflow ${1:visible/hidden/scroll/auto}$0</string>
+	<string>`put_colon.rb`overflow ${1:visible/hidden/scroll/auto}$0</string>
 	<key>name</key>
 	<string>:overflow type</string>
 	<key>scope</key>

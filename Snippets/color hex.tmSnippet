@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:color #${1:DDD}$0</string>
+	<string>`put_colon.rb`color #${1:DDD}$0</string>
 	<key>name</key>
 	<string>:color hex</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:z-index: $1$0</string>
+	<string>`put_colon.rb`z-index: $1$0</string>
 	<key>name</key>
 	<string>:z-index index</string>
 	<key>scope</key>

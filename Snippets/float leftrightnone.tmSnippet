@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:float ${1:left/right/none}$0</string>
+	<string>`put_colon.rb`float ${1:left/right/none}$0</string>
 	<key>name</key>
 	<string>:float left/right/none</string>
 	<key>scope</key>

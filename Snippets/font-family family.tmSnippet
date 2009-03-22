@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:font-family ${1:Arial, "MS Trebuchet"}, ${2:sans-}serif$0</string>
+	<string>`put_colon.rb`font-family ${1:Arial, "MS Trebuchet"}, ${2:sans-}serif$0</string>
 	<key>name</key>
 	<string>:font-family family</string>
 	<key>scope</key>

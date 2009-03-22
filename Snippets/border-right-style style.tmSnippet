@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:border-right-style ${1:none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset}$0</string>
+	<string>`put_colon.rb`border-right-style ${1:none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset}$0</string>
 	<key>name</key>
 	<string>:border-right-style style</string>
 	<key>scope</key>

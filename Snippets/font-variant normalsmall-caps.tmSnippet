@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:font-variant ${1:normal/small-caps}$0</string>
+	<string>`put_colon.rb`font-variant ${1:normal/small-caps}$0</string>
 	<key>name</key>
 	<string>:font-variant normal/small-caps</string>
 	<key>scope</key>

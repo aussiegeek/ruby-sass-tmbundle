@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:word-spacing ${1:10px}$0</string>
+	<string>`put_colon.rb`word-spacing ${1:10px}$0</string>
 	<key>name</key>
 	<string>:word-spacing length</string>
 	<key>scope</key>

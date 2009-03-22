@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:cursor ${1:default/auto/crosshair/pointer/move/*-resize/text/wait/help}$0</string>
+	<string>`put_colon.rb`cursor ${1:default/auto/crosshair/pointer/move/*-resize/text/wait/help}$0</string>
 	<key>name</key>
 	<string>:cursor type</string>
 	<key>scope</key>

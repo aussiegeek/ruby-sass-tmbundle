@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>:border-right ${1:1}px ${2:solid} #${3:999}$0</string>
+	<string>`put_colon.rb`border-right ${1:1}px ${2:solid} #${3:999}$0</string>
 	<key>name</key>
 	<string>:border-right size style color</string>
 	<key>scope</key>
