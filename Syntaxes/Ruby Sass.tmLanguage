@@ -101,23 +101,68 @@
 			</array>
 		</dict>
 		<dict>
-			<key>captures</key>
+			<key>begin</key>
+			<string>^\s*(\+)([a-zA-Z0-9_-]+)</string>
+			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.entity.css</string>
+					<string>punctuation.definition.entity.sass</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
 					<string>variable.other.sass</string>
 				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.entity.sass</string>
+				</dict>
 			</dict>
-			<key>match</key>
-			<string>^\s*(\+)([a-zA-Z0-9_-]+)</string>
+			<key>end</key>
+			<string>(;)?$</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>invalid.illegal.punctuation.sass</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>meta.variable-usage.sass</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.entity.css</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>variable.other.sass</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>(\!)([a-zA-Z0-9_-]+)</string>
+					<key>name</key>
+					<string>meta.variable-usage.sass</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#string-single</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#string-double</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>begin</key>
