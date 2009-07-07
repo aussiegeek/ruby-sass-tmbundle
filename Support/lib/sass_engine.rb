@@ -13,11 +13,15 @@ class SassEngine
 private
   def compile!
     command = options.empty? ? "cat" : "tail -n +2"
-    Kernel.system("#{command} #{@filename} | sass #{flags} -s > #{output_filename}")
+    Kernel.system("#{command} #{escape(@filename)} | sass #{flags} -s > #{escape(output_filename)}")
   end
   
-  def preview!    
-    Kernel.system("open -g #{preview_filename}") if process_status.exitstatus.zero? && preview_filename
+  def preview!
+    Kernel.system("open -g #{escape(preview_filename)}") if process_status.exitstatus.zero? && preview_filename
+  end
+  
+  def escape(s)
+    "\"#{s.gsub('"', '\"')}\""
   end
   
   def process_status
