@@ -475,7 +475,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>^(?!\1\s)</string>
+			<string>^$</string>
 			<key>name</key>
 			<string>comment.block.sass</string>
 		</dict>
