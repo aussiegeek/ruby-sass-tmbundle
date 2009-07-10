@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>`put_colon.rb`-webkit-box-shadow ${1:10px} ${2:10px} ${3:5px} #${4:333}$0
-`put_colon.rb`-moz-box-shadow ${1:10px} ${2:10px} ${3:5px} #${4:333}$0</string>
+	<string>`put_colon.rb`-moz-border-radius ${1:1}px
+`put_colon.rb`-webkit-border-radius ${1:1}px$0</string>
 	<key>name</key>
-	<string>:box-shadow</string>
+	<string>:border-radius</string>
 	<key>scope</key>
 	<string>source.sass</string>
 	<key>tabTrigger</key>
-	<string>box</string>
+	<string>border</string>
 	<key>uuid</key>
-	<string>CA6A4645-DADF-4804-8D95-D167A211B068</string>
+	<string>7CB98910-EBEE-4A98-AF79-746DBAFB3B67</string>
 </dict>
 </plist>
