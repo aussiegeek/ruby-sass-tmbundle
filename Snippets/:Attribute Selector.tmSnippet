@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:p}[${2:name}="${3:string}"]
+  `put_colon.rb`${4:property} ${5:value}$0</string>
+	<key>name</key>
+	<string>:Attribute Selector</string>
+	<key>scope</key>
+	<string>source.sass</string>
+	<key>tabTrigger</key>
+	<string>as</string>
+	<key>uuid</key>
+	<string>F830FCFB-26E7-4E40-9EC8-7C4D6F222CDE</string>
+</dict>
+</plist>
