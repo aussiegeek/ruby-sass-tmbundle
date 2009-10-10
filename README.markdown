@@ -1,3 +1,8 @@
+## Notice
+
+This project is in need of a [new maintainer](http://github.com/aussiegeek/ruby-sass-tmbundle/issues/#issue/4).
+
+
 This is a TextMate bundle for using the [Sass](http://haml.hamptoncatlin.com) CSS replacement language by Hampton Catlin
 
 
