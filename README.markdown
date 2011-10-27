@@ -21,16 +21,16 @@ I originally wrote this bundle just as a way of getting the CSS snippets, but si
 [@trevorsmith](http://github.com/trevorsmith)
 
 ## Installation
-    
+
     With Git:
-    
+
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/aussiegeek/ruby-sass-tmbundle.git "Ruby Sass.tmbundle"
     osascript -e 'tell app "TextMate" to reload bundles'
 
     Without Git:
-    
+
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     wget http://github.com/aussiegeek/ruby-sass-tmbundle/tarball/master
